@@ -1,6 +1,7 @@
 <template>
 <div>
-test
-test
+<HeroSection/>
+<ResearchSection/>
+<Footer/>
 </div>
 </template>

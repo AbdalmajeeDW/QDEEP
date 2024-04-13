@@ -1,0 +1,150 @@
+.research {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  .sectionPartOne {
+    .titleSection {
+      line-height: 1.5;
+      font-size: 36px;
+      margin-bottom: 25px;
+      &::before {
+        content: "01";
+        font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+        display: block;
+        position: absolute;
+        font-size: 200px;
+        top: -95px;
+        color: #f3f3f3;
+        z-index: -1;
+      }
+    }
+    .video {
+      margin-top: 70px;
+      padding: 10px;
+    }
+  }
+  .sectionPartTwo {
+    width: 50%;
+    p {
+      line-height: 2.2;
+      margin: 0 0 30px;
+      text-align: justify;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .research {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    .sectionPartOne {
+      .video {
+        margin-top: 70px;
+        padding: 10px;
+      }
+      .titleSection {
+        line-height: 1.5;
+        font-size: 36px;
+        margin-bottom: 25px;
+        &::before {
+          content: "01";
+          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          display: block;
+          position: absolute;
+          font-size: 200px;
+          top: -95px;
+          color: #f3f3f3;
+          z-index: -1;
+        }
+      }
+    }
+    .sectionPartTwo {
+      width: 100%;
+      p {
+        font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
+        line-height: 1.8;
+        margin: 0 0 30px;
+        color: gray;
+        text-align: justify;
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .research {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    .sectionPartOne {
+      .video {
+        margin-top: 70px;
+        padding: 10px;
+      }
+      .titleSection {
+        line-height: 1.5;
+        font-size: 24px;
+        margin-bottom: 25px;
+        // text-align: center;
+
+        &::before {
+          content: "01";
+          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          display: block;
+          position: absolute;
+          font-size: 120px;
+          top: -75px;
+          color: #f3f3f3;
+          z-index: -1;
+          //   left: 10px;
+        }
+      }
+    }
+
+    .sectionPartTwo {
+      width: 100%;
+      p {
+        font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
+        line-height: 1.8;
+        margin: 0 0 30px;
+        color: gray;
+        text-align: justify;
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .sectionPartOne {
+    .titleSection {
+      line-height: 1.5;
+      font-size: 24px;
+      margin-bottom: 25px;
+      text-align: center;
+
+      &::before {
+        content: "01";
+        font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+        display: block;
+        position: absolute;
+        font-size: 120px;
+        top: -75px;
+        color: #f3f3f3;
+        z-index: -1;
+        left: 10px;
+      }
+    }
+  }
+}

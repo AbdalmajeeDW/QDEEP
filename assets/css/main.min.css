@@ -1,0 +1,231 @@
+.con {
+  width: 100%;
+}
+.con .heroSection {
+  background-image: url("/public/hero.jpg");
+  height: 95vh;
+  z-index: -1;
+  background-repeat: round;
+}
+.con .heroSection .header img {
+  width: 120px;
+  padding: 20px;
+}
+.con .heroSection .heroText {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+  margin-top: 40px;
+}
+.con .heroSection .heroTextAndBtn {
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.con .heroSection .heroTextAndBtn .v-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .con {
+    width: 100%;
+  }
+  .con .heroSection {
+    background-image: url("/public/hero.jpg");
+    height: 95vh;
+    z-index: -1;
+    background-repeat: round;
+  }
+  .con .heroSection .header img {
+    width: 120px;
+    padding: 20px;
+  }
+  .con .heroSection .heroText {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .con .heroSection .heroTextAndBtn {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .con .heroSection .heroTextAndBtn .v-btn {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .con .heroSection .heroTextAndBtn .v-btn__content {
+    font-size: 12px;
+  }
+}
+.research {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+}
+.research .sectionPartOne .titleSection {
+  line-height: 1.5;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.research .sectionPartOne .titleSection::before {
+  content: "01";
+  font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+  display: block;
+  position: absolute;
+  font-size: 200px;
+  top: -95px;
+  color: #f3f3f3;
+  z-index: -1;
+}
+.research .sectionPartOne .video {
+  margin-top: 70px;
+  padding: 10px;
+}
+.research .sectionPartTwo {
+  width: 50%;
+}
+.research .sectionPartTwo p {
+  line-height: 2.2;
+  margin: 0 0 30px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .research {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .research .sectionPartOne .video {
+    margin-top: 70px;
+    padding: 10px;
+  }
+  .research .sectionPartOne .titleSection {
+    line-height: 1.5;
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  .research .sectionPartOne .titleSection::before {
+    content: "01";
+    font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    font-size: 200px;
+    top: -95px;
+    color: #f3f3f3;
+    z-index: -1;
+  }
+  .research .sectionPartTwo {
+    width: 100%;
+  }
+  .research .sectionPartTwo p {
+    font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    margin: 0 0 30px;
+    color: gray;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .research {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .research .sectionPartOne .video {
+    margin-top: 70px;
+    padding: 10px;
+  }
+  .research .sectionPartOne .titleSection {
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .research .sectionPartOne .titleSection::before {
+    content: "01";
+    font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    font-size: 120px;
+    top: -75px;
+    color: #f3f3f3;
+    z-index: -1;
+  }
+  .research .sectionPartTwo {
+    width: 100%;
+  }
+  .research .sectionPartTwo p {
+    font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    margin: 0 0 30px;
+    color: gray;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .sectionPartOne .titleSection {
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .sectionPartOne .titleSection::before {
+    content: "01";
+    font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    font-size: 120px;
+    top: -75px;
+    color: #f3f3f3;
+    z-index: -1;
+    left: 10px;
+  }
+}
+.footer {
+  background-color: #282828;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+.footer ul li {
+  cursor: pointer;
+}
+.footer ul li:hover {
+  color: red;
+}/*# sourceMappingURL=main.min.css.map */
