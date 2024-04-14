@@ -1,3 +1,11 @@
+body {
+  font-family: "HuaweiSans-Bold", Arial, Helvetica, sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .con {
   width: 100%;
 }
@@ -102,6 +110,7 @@
   width: 50%;
 }
 .research .sectionPartTwo p {
+  color: gray;
   line-height: 2.2;
   margin: 0 0 30px;
   text-align: justify;
@@ -139,13 +148,12 @@
     width: 100%;
   }
   .research .sectionPartTwo p {
-    font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
     line-height: 1.8;
     margin: 0 0 30px;
-    color: gray;
     text-align: justify;
     font-size: 14px;
     padding: 10px;
+    text-align: justify;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -168,7 +176,6 @@
   }
   .research .sectionPartOne .titleSection::before {
     content: "01";
-    font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
     display: block;
     position: absolute;
     font-size: 120px;
@@ -210,12 +217,11 @@
 }
 .footer {
   background-color: #282828;
-  padding: 10px;
+  padding: 20px;
   color: white;
   font-size: 14px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .footer ul {
   list-style: none;
@@ -228,4 +234,378 @@
 }
 .footer ul li:hover {
   color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    background-color: #282828;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+  }
+  .footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .footer ul li {
+    cursor: pointer;
+  }
+  .footer ul li:hover {
+    color: red;
+  }
+}
+.conSection {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.conSection .topSection {
+  padding-top: 20px;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.conSection .topSection .titleSection {
+  line-height: 1.5;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.conSection .topSection .titleSection::before {
+  content: "02";
+  display: block;
+  position: absolute;
+  font-size: 200px;
+  top: -95px;
+  color: white;
+  z-index: -1;
+}
+.conSection .topSection .text {
+  width: 50%;
+  color: gray;
+  text-align: justify;
+}
+.conSection .allCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  gap: 30px;
+}
+
+@media (max-width: 600px) {
+  .allCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    gap: 30px;
+  }
+  .conSection .topSection {
+    padding-top: 80px;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+  }
+  .conSection .topSection .titleSection {
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .conSection .topSection .titleSection::before {
+    content: "02";
+    display: block;
+    position: absolute;
+    font-size: 120px;
+    top: 2px;
+    color: white;
+    z-index: -1;
+  }
+  .conSection .topSection .text {
+    width: 100%;
+    margin-top: 40px;
+    padding: 15px;
+    color: gray;
+    text-align: justify;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .allCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    gap: 30px;
+  }
+  .conSection .topSection {
+    padding-top: 20px;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+  }
+  .conSection .topSection .titleSection {
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  .conSection .topSection .titleSection::before {
+    content: "02";
+    display: block;
+    position: absolute;
+    font-size: 200px;
+    top: -102px;
+    color: white;
+    z-index: -1;
+  }
+  .conSection .topSection .text {
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+    color: gray;
+    text-align: justify;
+  }
+}
+.card {
+  color: #595757;
+  background: #fff;
+  box-shadow: 0px 2px 10px rgba(95, 1, 6, 0.06);
+  padding: 16px 13px;
+  position: relative;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+}
+.card:hover {
+  cursor: pointer;
+  color: #c7000b;
+}
+.card:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background-color: #c7000b;
+  color: #c7000b;
+  transition: all 0.2s ease;
+}
+
+.contact {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  position: relative;
+}
+.contact .topSectionContact {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact .topSectionContact .titleSection {
+  line-height: 1.5;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.contact .topSectionContact .titleSection::before {
+  content: "03";
+  font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+  display: block;
+  position: absolute;
+  font-size: 200px;
+  top: -95px;
+  color: #f3f3f3;
+  z-index: -1;
+}
+.contact .topSectionContact .text {
+  text-align: justify;
+  margin: 0 0 30px;
+  color: gray;
+  line-height: 1.8;
+  width: 50%;
+}
+.contact .BottomSectionContact {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #c7000b;
+}
+.contact .BottomSectionContact .form {
+  padding: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+.contact .BottomSectionContact .form .text {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    position: relative;
+  }
+  .contact .topSectionContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contact .topSectionContact .titleSection {
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .contact .topSectionContact .titleSection::before {
+    content: "03";
+    font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    font-size: 200px;
+    top: -120px;
+    color: #f3f3f3;
+    z-index: -1;
+  }
+  .contact .topSectionContact .text {
+    text-align: justify;
+    margin: 0 0 30px;
+    color: gray;
+    margin-top: 85px;
+    padding: 22px;
+    line-height: 1.8;
+    width: 100%;
+  }
+  .contact .BottomSectionContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #c7000b;
+  }
+  .contact .BottomSectionContact .form {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .contact .BottomSectionContact .form .text {
+    text-align: justify;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 600px) {
+  .contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    position: relative;
+  }
+  .contact .topSectionContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contact .topSectionContact .titleSection {
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .contact .topSectionContact .titleSection::before {
+    content: "03";
+    font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    font-size: 150px;
+    top: -75px;
+    color: #f3f3f3;
+    z-index: -1;
+  }
+  .contact .topSectionContact .text {
+    text-align: justify;
+    color: gray;
+    margin-top: 45px;
+    padding: 22px;
+    line-height: 1.8;
+    width: 100%;
+  }
+  .contact .BottomSectionContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #c7000b;
+  }
+  .contact .BottomSectionContact .form {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .contact .BottomSectionContact .form .text {
+    text-align: justify;
+    line-height: 1.6;
+  }
 }/*# sourceMappingURL=main.min.css.map */

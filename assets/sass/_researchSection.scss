@@ -30,6 +30,8 @@
   .sectionPartTwo {
     width: 50%;
     p {
+      color: gray;
+
       line-height: 2.2;
       margin: 0 0 30px;
       text-align: justify;
@@ -68,13 +70,12 @@
     .sectionPartTwo {
       width: 100%;
       p {
-        font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
         line-height: 1.8;
         margin: 0 0 30px;
-        color: gray;
         text-align: justify;
         font-size: 14px;
         padding: 10px;
+        text-align: justify;
       }
     }
   }
@@ -100,14 +101,13 @@
 
         &::before {
           content: "01";
-          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
           display: block;
           position: absolute;
           font-size: 120px;
           top: -75px;
           color: #f3f3f3;
           z-index: -1;
-          //   left: 10px;
+         
         }
       }
     }

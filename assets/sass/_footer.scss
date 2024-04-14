@@ -1,12 +1,11 @@
 .footer {
   background-color: #282828;
-  padding: 10px;
+  padding: 20px;
   color: white;
   font-size: 14px;
-
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  // align-items: center;
   ul{
     list-style: none;
     display: flex;
@@ -17,6 +16,36 @@
         &:hover{
             color: red;
         }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    background-color: #282828;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    ul{
+      list-style: none;
+      display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+
+
+      gap: 10px;
+      font-size: 14px;
+      li{
+          cursor: pointer;
+          &:hover{
+              color: red;
+          }
+      }
     }
   }
 }

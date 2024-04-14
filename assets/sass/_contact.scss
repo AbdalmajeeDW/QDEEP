@@ -1,0 +1,191 @@
+.contact {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  position: relative;
+  .topSectionContact {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .titleSection {
+      line-height: 1.5;
+      font-size: 36px;
+      margin-bottom: 25px;
+      &::before {
+        content: "03";
+        font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+        display: block;
+        position: absolute;
+        font-size: 200px;
+        top: -95px;
+        color: #f3f3f3;
+        z-index: -1;
+      }
+    }
+    .text {
+      text-align: justify;
+      margin: 0 0 30px;
+      color: gray;
+      line-height: 1.8;
+      width: 50%;
+    }
+  }
+  .BottomSectionContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #c7000b;
+    .form {
+      padding: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 150px;
+      .text {
+        text-align: justify;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    position: relative;
+    .topSectionContact {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      .titleSection {
+        line-height: 1.5;
+        font-size: 24px;
+        margin-bottom: 25px;
+        &::before {
+          content: "03";
+          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          display: block;
+          position: absolute;
+          font-size: 200px;
+          top: -120px;
+          color: #f3f3f3;
+          z-index: -1;
+        }
+      }
+      .text {
+        text-align: justify;
+        margin: 0 0 30px;
+        color: gray;
+        margin-top: 85px;
+        padding: 22px;
+        line-height: 1.8;
+        width: 100%;
+      }
+    }
+    .BottomSectionContact {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      margin-left: 80px;
+      margin-right: 80px;
+      background-color: #c7000b;
+      .form {
+        padding-left: 40px;
+        padding-right: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        .text {
+          text-align: justify;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    position: relative;
+    .topSectionContact {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      .titleSection {
+        line-height: 1.5;
+        font-size: 24px;
+        margin-bottom: 25px;
+        &::before {
+          content: "03";
+          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          display: block;
+          position: absolute;
+          font-size: 150px;
+          top: -75px;
+          color: #f3f3f3;
+          z-index: -1;
+        }
+      }
+      .text {
+        text-align: justify;
+        // margin: 0 0 30px;
+        color: gray;
+        margin-top: 45px;
+        padding: 22px;
+        line-height: 1.8;
+        width: 100%;
+      }
+    }
+    .BottomSectionContact {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      margin-left: 80px;
+      margin-right: 80px;
+      background-color: #c7000b;
+      .form {
+        padding-left: 40px;
+        padding-right: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        .text {
+          text-align: justify;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}

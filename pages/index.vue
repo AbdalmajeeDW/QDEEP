@@ -2,6 +2,8 @@
 <div>
 <HeroSection/>
 <ResearchSection/>
+<ChallengingSection/>
+<Contact/>
 <Footer/>
 </div>
 </template>
