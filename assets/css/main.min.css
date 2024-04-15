@@ -2,8 +2,17 @@ body {
   font-family: "HuaweiSans-Bold", Arial, Helvetica, sans-serif !important;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .con {
@@ -38,6 +47,7 @@ body {
 .con .heroSection .heroTextAndBtn .v-btn {
   width: -moz-fit-content;
   width: fit-content;
+  transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 600px) {
@@ -73,9 +83,11 @@ body {
   .con .heroSection .heroTextAndBtn .v-btn {
     width: -moz-fit-content;
     width: fit-content;
+    transition: all 0.3s ease;
   }
   .con .heroSection .heroTextAndBtn .v-btn__content {
     font-size: 12px;
+    transition: all 0.3s ease;
   }
 }
 .research {
@@ -580,7 +592,7 @@ body {
   .contact .topSectionContact .text {
     text-align: justify;
     color: gray;
-    margin-top: 45px;
+    margin-top: 5px;
     padding: 22px;
     line-height: 1.8;
     width: 100%;
@@ -588,9 +600,8 @@ body {
   .contact .BottomSectionContact {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
     background-color: #c7000b;
   }
   .contact .BottomSectionContact .form {
@@ -606,5 +617,209 @@ body {
   .contact .BottomSectionContact .form .text {
     text-align: justify;
     line-height: 1.6;
+  }
+}
+.about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.about .con2 {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.about .con2 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.about .con2 a .watch {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about .con2 a .watch .text {
+  display: flex;
+  flex-direction: column;
+}
+.about .con2 a .watch .text .wat {
+  color: red;
+}
+.about .con2 a .watch .text .watText {
+  color: black;
+}
+.about .con2 a .watch .text .watText:hover {
+  color: red;
+}
+.about .con2 a .watch img {
+  width: 150px;
+}
+.about .con2 a video {
+  margin-top: 50px;
+  width: 50%;
+  border-radius: 20px;
+}
+.about .con {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.about .con a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.about .con a .watch {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about .con a .watch .text {
+  display: flex;
+  flex-direction: column;
+}
+.about .con a .watch .text .wat {
+  color: red;
+}
+.about .con a .watch .text .watText {
+  color: black;
+}
+.about .con a .watch .text .watText:hover {
+  color: red;
+}
+.about .con a .watch img {
+  width: 150px;
+}
+.about .con a video {
+  margin-top: 50px;
+  width: 50%;
+  border-radius: 20px;
+}
+.about .titleSection {
+  margin-left: 80px;
+  margin-right: 80px;
+  line-height: 1.5;
+  font-size: 36px;
+  margin-bottom: 25px;
+  z-index: 5;
+}
+.about .titleSection::before {
+  content: "04";
+  display: block;
+  position: absolute;
+  font-size: 200px;
+  top: -45px;
+  color: white;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .about .titleSection {
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .about .titleSection::before {
+    content: "04";
+    display: block;
+    position: absolute;
+    font-size: 150px;
+    top: 0px;
+    color: white;
+    z-index: -1;
+  }
+  .about .con2 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .about .con2 a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .about .con2 a .watch {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .about .con2 a .watch .text {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .con2 a .watch .text .wat {
+    color: red;
+    font-size: 16px;
+  }
+  .about .con2 a .watch .text .watText {
+    color: black;
+    font-size: 16px;
+  }
+  .about .con2 a .watch .text .watText:hover {
+    color: red;
+  }
+  .about .con2 a .watch img {
+    width: 100px;
+  }
+  .about .con2 a video {
+    display: none;
+  }
+  .about .con {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .about .con a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .about .con a .watch {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .about .con a .watch .text {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .con a .watch .text .wat {
+    color: red;
+    font-size: 16px;
+  }
+  .about .con a .watch .text .watText {
+    color: black;
+    font-size: 16px;
+  }
+  .about .con a .watch .text .watText:hover {
+    color: red;
+  }
+  .about .con a .watch img {
+    width: 100px;
+  }
+  .about .con a video {
+    display: none;
   }
 }/*# sourceMappingURL=main.min.css.map */

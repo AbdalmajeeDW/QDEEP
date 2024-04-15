@@ -1,0 +1,228 @@
+.about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 80px;
+
+  padding-bottom: 80px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  .con2 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row-reverse;
+    gap: 10px;
+
+
+      .watch {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .text {
+          display: flex;
+          flex-direction: column;
+          
+          .wat {
+            color: red;
+          }
+          .watText {
+            color: black;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+        img {
+          width: 150px;
+        }
+      }
+
+      video {
+        margin-top: 50px;
+        width: 50%;
+        border-radius: 20px;
+      }
+    }
+  }
+  .con {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+
+      .watch {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .text {
+          display: flex;
+          flex-direction: column;
+          .wat {
+            color: red;
+          }
+          .watText {
+            color: black;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+        img {
+          width: 150px;
+        }
+      }
+
+      video {
+        margin-top: 50px;
+        width: 50%;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .titleSection {
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 1.5;
+    font-size: 36px;
+    margin-bottom: 25px;
+    z-index: 5;
+
+    &::before {
+      content: "04";
+      display: block;
+      position: absolute;
+      font-size: 200px;
+      top: -45px;
+      color: white;
+      z-index: -1;
+    }
+  }
+}
+@media (max-width:768px) {
+  .about{
+    .titleSection {
+      margin-left: 20px;
+      line-height: 1.5;
+      font-size: 24px;
+      
+      margin-bottom: 25px;
+      &::before {
+        content: "04";
+        display: block;
+        position: absolute;
+        font-size: 150px;
+        top: 0px;
+        color: white;
+        z-index: -1;
+      }
+    }
+    .con2 {
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+  
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+  
+        .watch {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .text {
+            display: flex;
+            flex-direction: column;
+            .wat {
+              color: red;
+              font-size: 16px;
+
+            }
+            .watText {
+              color: black;
+              font-size: 16px;
+
+              &:hover {
+                color: red;
+              }
+            }
+          }
+          img {
+            width: 100px;
+          }
+        }
+  
+        video {
+        display: none;
+        }
+      }
+    }
+    .con {
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+  
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+  
+        .watch {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .text {
+            display: flex;
+            flex-direction: column;
+            .wat {
+              color: red;
+              font-size: 16px;
+            }
+            .watText {
+              color: black;
+              font-size: 16px;
+
+              &:hover {
+                color: red;
+              }
+            }
+          }
+          img {
+            width: 100px;
+          }
+        }
+  
+        video {
+       display: none;
+        }
+      }
+    }
+  
+  }
+}

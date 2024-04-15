@@ -4,6 +4,7 @@
 <ResearchSection/>
 <ChallengingSection/>
 <Contact/>
+<About/>
 <Footer/>
 </div>
 </template>

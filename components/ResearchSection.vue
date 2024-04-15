@@ -4,7 +4,7 @@
       <h2 class="titleSection">QDeep Research Institute</h2>
       <div class="video">
         <iframe
-          width="400"
+          width="380"
           height="250"
           src="https://www.youtube.com/embed/cPuxEADrncg?si=JOmjUH7C_yhroPYN"
           title="YouTube video player"

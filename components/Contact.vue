@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="topSectionContact">
       <h2 class="titleSection">
         Career at QDeep Russian

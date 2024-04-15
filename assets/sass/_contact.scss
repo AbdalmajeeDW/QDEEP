@@ -157,9 +157,8 @@
       }
       .text {
         text-align: justify;
-        // margin: 0 0 30px;
         color: gray;
-        margin-top: 45px;
+        margin-top: 5px;
         padding: 22px;
         line-height: 1.8;
         width: 100%;
@@ -168,9 +167,9 @@
     .BottomSectionContact {
       display: flex;
       justify-content: center;
-      margin-top: 40px;
-      margin-left: 80px;
-      margin-right: 80px;
+      // margin-top: 40px;
+      margin-left: 25px;
+      margin-right: 25px;
       background-color: #c7000b;
       .form {
         padding-left: 40px;

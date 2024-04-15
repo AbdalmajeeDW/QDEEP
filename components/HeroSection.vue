@@ -12,7 +12,7 @@
       <div class="heroTextAndBtn">
      Discover your quantum edge with QDeep.
      Join us and dive into new possibilites
-     <v-btn  color="red">To send a resume</v-btn>
+     <v-btn  color="red"><a href="#contact">To send a resume</a> </v-btn>
       </div>
     </div>
   </div>

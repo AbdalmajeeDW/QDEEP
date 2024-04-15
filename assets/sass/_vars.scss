@@ -1,7 +1,16 @@
 
 body{
     font-family: 'HuaweiSans-Bold',Arial,Helvetica,sans-serif!important;
+  
+
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 *{
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
