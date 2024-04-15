@@ -6,9 +6,7 @@
         Research Institute
       </h2>
       <div class="text">
-        QDeep is exploring the smart future with leading partners, QDeep<br />
-        welcomes more and more students, PhDs and specialists to participate in
-        future cutting-edge technical challenges.
+        QDeep welcomes more and more students, PhDs and specialists to participate in future cutting-edge technical challenges.
       </div>
     </div>
     <div class="BottomSectionContact">

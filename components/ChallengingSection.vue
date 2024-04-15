@@ -3,44 +3,33 @@
     <div class="topSection">
       <h2 class="titleSection">Our challenging problems</h2>
       <div class="text">
-        QDeep is exploring the intelligent future with leading partners. QDeep
-        welcomes the participation of academia and industry in future
-        cutting-edge technology challenges. We release the technical challenges
-        from different campaigns, teams, and product lines of QDeep. Anyone can
-        contribute and high-value contributions will be rewarded.
+        Explore your quantum side with QDeep. Join us in spearheading the future
+        of quantum computing. QDeep is open to collaboration with innovative
+        minds from academia and industry to tackle cutting-edge challenges. Dive
+        into technical challenges across our projects. Your contributions are
+        valuable, and significant contributions will be acknowledged and
+        rewarded. Be a driving force in the second quantum revolution with
+        QDeep.
       </div>
     </div>
     <div class="allCards">
+      <div class="card">Optimization via Quantum Computing</div>
       <div class="card">
-        Wireless
-</div>
-<div class="card">
-  Optical
-</div>
-<div class="card">
-  Cloud
-</div>
-<div class="card">
-  Intelligent Automotive
-</div>
-<div class="card">
-  Consumer Business Group
-</div>
-<div class="card">
-  Data Storage
-</div>
-<div class="card">
-  HiSilicon
-</div>
-<div class="card">
-  Computing
-</div>
-<div class="card">
-  DataCom
-</div>
-<div class="card">
-  Digital Power
-</div>
+        Quantum Machine Learning Algorithms and Applications
+      </div>
+      <div class="card">
+        Quantum Networking Protocols and Secure Communication
+      </div>
+      <div class="card">
+        Development of Quantum Software Tools and Libraries
+      </div>
+      <div class="card">The Implications of Quantum Computing on Politics</div>
+      <div class="card">
+        The Implications of Quantum Computing on the Economy and Business
+      </div>
+      <div class="card">
+        Strategies for Enhancing Quantum Computing in Russia
+      </div>
     </div>
   </div>
 </template>
