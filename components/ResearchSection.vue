@@ -2,19 +2,8 @@
   <div class="research">
     <div class="sectionPartOne">
       <h2 class="titleSection">QDeep Research Institute</h2>
-      <div class="video">
-        <iframe
-          width="380"
-          height="250"
-          src="https://www.youtube.com/embed/cPuxEADrncg?si=JOmjUH7C_yhroPYN"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        >
-        </iframe>
-      </div>
+  
+      
     </div>
     <div class="sectionPartTwo">
       <p>

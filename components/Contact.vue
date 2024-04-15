@@ -12,9 +12,8 @@
     <div class="BottomSectionContact">
       <div class="form">
         <div class="text">
-          Our vision and mission is to bring digital to every person, home and organization for a fully connected, intelligent world.
-        </div>
-        <v-btn variant="outlined"> CONTACT US</v-btn>
+          Our vision and mission at QDeep are to bring about quantum advantage and play a pivotal role in the second quantum revolution.        </div>
+        
       </div>
     </div>
   </div>
