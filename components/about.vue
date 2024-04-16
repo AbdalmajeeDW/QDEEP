@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <!-- <div class="about">
     <h2 class="titleSection">Know more about QDeep</h2>
     <div class="con">
       <a href="https://www.youtube.com/watch?v=ZJ4Vvo0bH38"> 
@@ -29,5 +29,5 @@
       </video>
       </a>
     </div>
-  </div>
+  </div> -->
 </template>
