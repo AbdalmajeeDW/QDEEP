@@ -123,6 +123,7 @@ color: white;
       margin-left: 20px;
       line-height: 1.5;
       font-size: 24px;
+      text-wrap: nowrap;
 color: white;
       margin-bottom: 25px;
       &::before {
@@ -130,7 +131,7 @@ color: white;
         display: block;
         position: absolute;
         font-size: 150px;
-        top: 0px;
+        top: -15px;
         color: gray;
         z-index: -1;
       }

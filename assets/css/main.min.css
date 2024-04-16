@@ -417,7 +417,6 @@ html {
   border-radius: 5px;
 }
 .card:hover {
-  cursor: pointer;
   color: #c7000b;
 }
 .card:hover::before {
@@ -505,7 +504,6 @@ html {
     position: relative;
   }
   .contact .topSectionContact {
-    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -730,6 +728,7 @@ html {
     margin-left: 20px;
     line-height: 1.5;
     font-size: 24px;
+    text-wrap: nowrap;
     color: white;
     margin-bottom: 25px;
   }
@@ -738,7 +737,7 @@ html {
     display: block;
     position: absolute;
     font-size: 150px;
-    top: 0px;
+    top: -15px;
     color: gray;
     z-index: -1;
   }
