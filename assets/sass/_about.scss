@@ -4,14 +4,11 @@
   padding-top: 80px;
 
   padding-bottom: 80px;
-  background-color: #f5f5f5;
+
   display: flex;
   flex-direction: column;
   position: relative;
 
-
-
-  
   .con2 {
     padding: 40px;
     display: flex;
@@ -20,14 +17,12 @@
     flex-direction: row-reverse;
     gap: 10px;
 
-
     a {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row-reverse;
-    gap: 10px;
-
+      gap: 10px;
 
       .watch {
         display: flex;
@@ -36,12 +31,12 @@
         .text {
           display: flex;
           flex-direction: column;
-          
+
           .wat {
             color: red;
           }
           .watText {
-            color: black;
+            color: gray;
             &:hover {
               color: red;
             }
@@ -79,11 +74,12 @@
         .text {
           display: flex;
           flex-direction: column;
+          color: gray;
           .wat {
             color: red;
           }
           .watText {
-            color: black;
+            color: gray;
             &:hover {
               color: red;
             }
@@ -109,25 +105,25 @@
     font-size: 36px;
     margin-bottom: 25px;
     z-index: 5;
-
+color: white;
     &::before {
       content: "04";
       display: block;
       position: absolute;
       font-size: 200px;
       top: -45px;
-      color: white;
+      color: gray;
       z-index: -1;
     }
   }
 }
-@media (max-width:768px) {
-  .about{
+@media (max-width: 768px) {
+  .about {
     .titleSection {
       margin-left: 20px;
       line-height: 1.5;
       font-size: 24px;
-      
+color: white;
       margin-bottom: 25px;
       &::before {
         content: "04";
@@ -135,7 +131,7 @@
         position: absolute;
         font-size: 150px;
         top: 0px;
-        color: white;
+        color: gray;
         z-index: -1;
       }
     }
@@ -146,13 +142,13 @@
       align-items: center;
       flex-direction: row;
       gap: 10px;
-  
+
       a {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-  
+
         .watch {
           display: flex;
           align-items: center;
@@ -163,10 +159,9 @@
             .wat {
               color: red;
               font-size: 16px;
-
             }
             .watText {
-              color: black;
+              color: gray;
               font-size: 16px;
 
               &:hover {
@@ -178,9 +173,9 @@
             width: 100px;
           }
         }
-  
+
         video {
-        display: none;
+          display: none;
         }
       }
     }
@@ -190,13 +185,13 @@
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
-  
+      margin-top: 40px;
       a {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-  
+
         .watch {
           display: flex;
           align-items: center;
@@ -209,7 +204,7 @@
               font-size: 16px;
             }
             .watText {
-              color: black;
+              color: gray;
               font-size: 16px;
 
               &:hover {
@@ -221,12 +216,11 @@
             width: 100px;
           }
         }
-  
+
         video {
-       display: none;
+          display: none;
         }
       }
     }
-  
   }
 }

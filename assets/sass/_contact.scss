@@ -1,6 +1,7 @@
 .contact {
   margin-top: 80px;
   margin-bottom: 80px;
+  
   position: relative;
   display: flex;
   flex-direction: column;
@@ -8,7 +9,7 @@
   justify-content: space-around;
   position: relative;
   .topSectionContact {
-    margin-left: 80px;
+    padding-left: 60px;
     margin-right: 80px;
     display: flex;
     flex-direction: row;
@@ -18,6 +19,7 @@
       line-height: 1.5;
       font-size: 36px;
       margin-bottom: 25px;
+      color: white;
       &::before {
         content: "03";
         font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
@@ -25,12 +27,11 @@
         position: absolute;
         font-size: 200px;
         top: -95px;
-        color: #f3f3f3;
+        color: gray;
         z-index: -1;
       }
     }
     .text {
-      text-align: justify;
       margin: 0 0 30px;
       color: gray;
       line-height: 1.8;
@@ -44,6 +45,8 @@
     margin-left: 80px;
     margin-right: 80px;
     background-color: #c7000b;
+    border-radius: 10px;
+
     .form {
       padding: 50px;
       padding-left: 40px;
@@ -55,7 +58,6 @@
       align-items: center;
       gap: 150px;
       .text {
-        text-align: justify;
         line-height: 1.6;
       }
     }
@@ -63,8 +65,7 @@
 }
 @media only screen and (max-width: 768px) {
   .contact {
-    margin-top: 80px;
-    margin-bottom: 80px;
+   
     position: relative;
     display: flex;
     flex-direction: column;
@@ -72,6 +73,7 @@
     justify-content: space-around;
     position: relative;
     .topSectionContact {
+      margin-left: 10px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -80,6 +82,7 @@
         line-height: 1.5;
         font-size: 24px;
         margin-bottom: 25px;
+        color: white;
         &::before {
           content: "03";
           font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
@@ -87,12 +90,11 @@
           position: absolute;
           font-size: 200px;
           top: -120px;
-          color: #f3f3f3;
+          color: gray;
           z-index: -1;
         }
       }
       .text {
-        text-align: justify;
         margin: 0 0 30px;
         color: gray;
         margin-top: 85px;
@@ -104,8 +106,8 @@
     .BottomSectionContact {
       display: flex;
       justify-content: center;
-      margin-top: 40px;
-      margin-left: 80px;
+      margin-top: 0px;
+      // margin-left: 80px;
       margin-right: 80px;
       background-color: #c7000b;
       .form {
@@ -118,7 +120,6 @@
         align-items: center;
         gap: 50px;
         .text {
-          text-align: justify;
           line-height: 1.6;
         }
       }
@@ -127,8 +128,8 @@
 }
 @media (max-width: 600px) {
   .contact {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    // margin-top: 80px;
+    // margin-bottom: 80px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -140,6 +141,7 @@
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+      padding-left: 30px;
       .titleSection {
         line-height: 1.5;
         font-size: 24px;
@@ -151,12 +153,11 @@
           position: absolute;
           font-size: 150px;
           top: -75px;
-          color: #f3f3f3;
+          color: gray;
           z-index: -1;
         }
       }
       .text {
-        text-align: justify;
         color: gray;
         margin-top: 5px;
         padding: 22px;
@@ -167,7 +168,7 @@
     .BottomSectionContact {
       display: flex;
       justify-content: center;
-      // margin-top: 40px;
+      margin-top: 0px;
       margin-left: 25px;
       margin-right: 25px;
       background-color: #c7000b;
@@ -181,7 +182,6 @@
         align-items: center;
         gap: 50px;
         .text {
-          text-align: justify;
           line-height: 1.6;
         }
       }

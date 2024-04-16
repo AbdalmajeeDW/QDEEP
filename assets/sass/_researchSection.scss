@@ -10,6 +10,7 @@
     .titleSection {
       line-height: 1.5;
       font-size: 36px;
+      color: white;
       margin-bottom: 25px;
       &::before {
         content: "01";
@@ -17,8 +18,8 @@
         display: block;
         position: absolute;
         font-size: 200px;
-        top: -95px;
-        color: #f3f3f3;
+        top: -118px;
+        color: gray;
         z-index: -1;
       }
     }
@@ -34,7 +35,6 @@
 
       line-height: 2.2;
       margin: 0 0 30px;
-      text-align: justify;
     }
   }
 }
@@ -45,7 +45,6 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    align-items: center;
     .sectionPartOne {
       .video {
         margin-top: 70px;
@@ -55,6 +54,8 @@
         line-height: 1.5;
         font-size: 36px;
         margin-bottom: 25px;
+        color: white;
+
         &::before {
           content: "01";
           font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
@@ -62,7 +63,7 @@
           position: absolute;
           font-size: 200px;
           top: -95px;
-          color: #f3f3f3;
+          color: gray;
           z-index: -1;
         }
       }
@@ -72,10 +73,8 @@
       p {
         line-height: 1.8;
         margin: 0 0 30px;
-        text-align: justify;
         font-size: 14px;
         padding: 10px;
-        text-align: justify;
       }
     }
   }
@@ -87,7 +86,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    align-items: center;
+    margin-left: 20px;
     .sectionPartOne {
       .video {
         margin-top: 70px;
@@ -97,7 +96,7 @@
         line-height: 1.5;
         font-size: 24px;
         margin-bottom: 25px;
-        // text-align: center;
+        color: white;
 
         &::before {
           content: "01";
@@ -105,9 +104,8 @@
           position: absolute;
           font-size: 120px;
           top: -75px;
-          color: #f3f3f3;
+          color: gray;
           z-index: -1;
-         
         }
       }
     }
@@ -119,7 +117,6 @@
         line-height: 1.8;
         margin: 0 0 30px;
         color: gray;
-        text-align: justify;
         font-size: 14px;
         padding: 10px;
       }
@@ -133,7 +130,8 @@
       font-size: 24px;
       margin-bottom: 25px;
       text-align: center;
-
+      color: white;
+      margin-left: 20px;
       &::before {
         content: "01";
         font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
@@ -141,7 +139,7 @@
         position: absolute;
         font-size: 120px;
         top: -75px;
-        color: #f3f3f3;
+        color: gray;
         z-index: -1;
         left: 10px;
       }
