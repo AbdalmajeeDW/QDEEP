@@ -1,5 +1,5 @@
 <template>
-  <div class="conSection">
+  <div class="conSection container">
     <div class="topSection">
       <h2 class="titleSection">Our challenging problems</h2>
       <div class="text">

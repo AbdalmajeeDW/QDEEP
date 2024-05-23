@@ -9,11 +9,9 @@
   justify-content: space-around;
   position: relative;
   .topSectionContact {
-    padding-left: 60px;
-    margin-right: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
     .titleSection {
       line-height: 1.5;
@@ -22,7 +20,7 @@
       color: white;
       &::before {
         content: "03";
-        font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+        // font-family: "Poly", serif;
         display: block;
         position: absolute;
         font-size: 200px;
@@ -34,7 +32,7 @@
     .text {
       margin: 0 0 30px;
       color: gray;
-      line-height: 1.8;
+      line-height: 2.2;
       width: 50%;
     }
   }
@@ -85,7 +83,7 @@
         color: white;
         &::before {
           content: "03";
-          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          // font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
           display: block;
           position: absolute;
           font-size: 200px;
@@ -148,7 +146,7 @@
         margin-bottom: 25px;
         &::before {
           content: "03";
-          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          // font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
           display: block;
           position: absolute;
           font-size: 150px;

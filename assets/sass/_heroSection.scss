@@ -5,17 +5,21 @@
     height: 95vh;
     z-index: -1;
     background-repeat: round;
+    background-size: cover;
     .header {
-      img {
-        width: 120px;
-        padding: 20px;
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        img {
+          width: 120px;
+          padding: 20px;
+        }
       }
     }
     .heroText {
       color: white;
-      font-size: 30px;
-      
-      font-weight: 400;
+      font-size: 50px;
+      font-weight: 900;
       padding: 20px;
       margin-top: 40px;
     }
@@ -30,9 +34,14 @@
       gap: 30px;
       .v-btn {
         width: fit-content;
-       transition:all .3s ease;
+        transition: all 0.3s ease;
       }
     }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .heroText {
+    font-size: 30px !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -44,15 +53,19 @@
       z-index: -1;
       background-repeat: round;
       .header {
-        img {
-          width: 120px;
-          padding: 20px;
+        .container {
+          width: 90%;
+          img {
+            width: 120px;
+            padding: 20px;
+          }
         }
+
       }
       .heroText {
         color: white;
-        font-size: 22px;
-        font-weight: 400;
+        font-size: 22px !important;
+        font-weight: 900;
         padding: 20px;
         margin-top: 20px;
       }
@@ -66,13 +79,11 @@
         gap: 30px;
         .v-btn {
           width: fit-content;
-       transition:all .3s ease;
-
+          transition: all 0.3s ease;
         }
         .v-btn__content {
-          font-size: 12px;
-       transition:all .3s ease;
 
+          transition: all 0.3s ease;
         }
       }
     }

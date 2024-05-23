@@ -1,7 +1,29 @@
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+font-family: "Averia Gruesa Libre", system-ui !important;
 background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #eaeaea00; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f44336;
+    transition: all 0.3s;
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 1;
+    
 }
 a{
     text-decoration: none;
@@ -12,4 +34,16 @@ a{
 }
 html {
     scroll-behavior: smooth;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .container {
+        width: 90%;
+    }
   }

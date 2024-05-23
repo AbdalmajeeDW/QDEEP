@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   .sectionPartOne {
     .titleSection {
       line-height: 1.5;
@@ -14,7 +14,7 @@
       margin-bottom: 25px;
       &::before {
         content: "01";
-        font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+        // font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
         display: block;
         position: absolute;
         font-size: 200px;
@@ -58,7 +58,7 @@
 
         &::before {
           content: "01";
-          font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+          // font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
           display: block;
           position: absolute;
           font-size: 200px;
@@ -113,7 +113,7 @@
     .sectionPartTwo {
       width: 100%;
       p {
-        font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
+        // font-family: HuaweiSans-Regular, Arial, Helvetica, sans-serif;
         line-height: 1.8;
         margin: 0 0 30px;
         color: gray;
@@ -134,7 +134,7 @@
       margin-left: 20px;
       &::before {
         content: "01";
-        font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
+        // font-family: HuaweiSans-Bold, Arial, Helvetica, sans-serif;
         display: block;
         position: absolute;
         font-size: 120px;

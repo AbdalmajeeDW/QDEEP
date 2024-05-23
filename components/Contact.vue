@@ -1,5 +1,5 @@
 <template>
-  <div class="contact" id="contact">
+  <div class="contact container" id="contact">
     <div class="topSectionContact">
       <h2 class="titleSection">
         Career at QDeep Russian Research Institute
@@ -12,7 +12,7 @@
       <div class="form">
         <div class="text">
           Our vision and mission at QDeep are to bring about quantum advantage and play a pivotal role in the second quantum revolution.</div>
-        
+          <v-btn  color="black">Contact Us</v-btn>
       </div>
     </div>
   </div>
